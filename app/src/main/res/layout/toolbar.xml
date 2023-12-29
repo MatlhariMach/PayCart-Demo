@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="My cart"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cross"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:textStyle="bold"
+            android:background="?android:selectableItemBackground"/>
+    </RelativeLayout>
+
+
+</com.google.android.material.appbar.AppBarLayout>
+

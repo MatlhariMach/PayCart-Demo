@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">PayCart Demo</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <string name="back4app_app_id">Yourid</string>
+    <string name="back4app_client_key">Yourkey</string>
+
+
+    <!-- Strings used for Login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password_again">Password Again</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="login">Log in</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="Sign_up_msg">Sign_up_msg</string>
+
+    <!-- Strings used for Errors -->
+    <string name="menu_logout">Log Out</string>
+    <string name="error_intro">"Please "</string>
+    <string name="error_blank_username">Please enter a username</string>
+    <string name="error_blank_password">Please enter a password</string>
+    <string name="error_mismatched_passwords">Please enter the same password twice</string>
+    <string name="error_join">", and "</string>
+    <string name="error_end">.</string>
+    <string name="progress_login">Logging in&#8230;</string>
+    <string name="progress_sign_up">Signing up&#8230;</string>
+    <string name="progressDialog">Loading&#8230;</string>
+
+    <string name="signup">signup</string>
+
+    <string name="Cancel">Cancel</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full name</string>
+    <string name="address">address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="register">Register</string>
+</resources>

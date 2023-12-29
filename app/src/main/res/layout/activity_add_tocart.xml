@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_shopping_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faf7f7"
+    android:paddingBottom="10dip"
+    tools:context=".AddTocartActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <!-- <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar" /> -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <RelativeLayout
+        android:id="@+id/priceLayout"
+        android:layout_width="match_parent"
+        android:layout_below="@id/recyclerView"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/totalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBTOTAL"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <!-- Second RelativeLayout with Button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priceLayout">
+
+        <Button
+            android:id="@+id/Procced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROCEAD TO CHECKOUT"
+            android:padding="16dp"
+            android:background="@color/colorPrimary"/>
+    </RelativeLayout>
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
