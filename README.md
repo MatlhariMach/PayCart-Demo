@@ -11,3 +11,4 @@
 ![cart2](/app/src/main/Screenshots/Screenshot_cart2.png)
 ![cart3](/app/src/main/Screenshots/Screenshot_cart3.png)
 ![cart4](/app/src/main/Screenshots/Screenshot_cart4.png)
+![cart5](/app/src/main/Screenshots/Screenshot_pay.png)
